@@ -18,9 +18,17 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
           THEME: github_dark
+          AUTO_PUSH: false
       - name: Remove email from generated cards
         run: |
-          find profile-summary-card-output/ -name "*.svg" -exec sed -i 's/[a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]*\.[a-zA-Z]*//g' {} +
+          echo "=== Before scrub ==="
+          grep -rn '[a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]*\.[a-zA-Z]' profile-summary-card-output/ || echo "No emails found with regex"
+          grep -rn 'matt' profile-summary-card-output/github_dark/0-profile-details.svg || echo "No 'matt' found"
+          cat profile-summary-card-output/github_dark/0-profile-details.svg | grep -oP '>[^<]+<' | head -20
+          echo "=== Scrubbing ==="
+          find profile-summary-card-output/ -name "*.svg" -exec sed -i -E 's/[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}//g' {} +
+          echo "=== After scrub ==="
+          grep -rn '[a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]*\.[a-zA-Z]' profile-summary-card-output/ || echo "No emails found - clean!"
       - name: Commit and push
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
