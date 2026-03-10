@@ -18,6 +18,9 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
           THEME: github_dark
+      - name: Remove email from generated cards
+        run: |
+          find profile-summary-card-output/ -name "*.svg" -exec sed -i 's/[a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]*\.[a-zA-Z]*//g' {} +
       - name: Commit and push
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
