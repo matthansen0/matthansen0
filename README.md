@@ -1,10 +1,10 @@
-![11-background (1)](https://raw.githubusercontent.com/matthansen0/matthansen0/master/img/header.jpg)
+![11-background (1)](https://raw.githubusercontent.com/matthansen0/matthansen0/main/img/header.jpg)
 
-### Hi there, I'm Matt Hansen👋.
+### Hi there, I'm Matt Hansen <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 
 ---
 
-You'll here find my public and forked repositories. Feel free to contact me if you have any suggestions or questions.
+You'll find here my public and forked repositories. Feel free to contact me if you have any suggestions or questions.
 
 ---
 
@@ -18,31 +18,25 @@ You'll here find my public and forked repositories. Feel free to contact me if y
 
 ---
 
-![Matt's github top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=matthansen0&show_icons=true&langs_count=8)
-
-![Matt's github stats](https://github-readme-stats.vercel.app/api?username=matthansen0&show_icons=true&count_private=true)
+<p>
+  <img src="profile-summary-card-output/default/2-most-commit-language.svg" alt="Matt's github top languages" />
+  <img src="profile-summary-card-output/default/3-stats.svg" alt="Matt's github stats" />
+</p>
 
 ---
 
-Chat with me on LinkedIn or Twitter
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/matthansen0/matthansen0/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/matthansen0/matthansen0/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/matthansen0/matthansen0/output/github-contribution-grid-snake.svg" />
+</picture>
+
+---
+
+Chat with me on LinkedIn
 <p align="left">
 	<a href="https://www.linkedin.com/in/matthansen0/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
-    <a href="https://twitter.com/matthansen0"><img src="https://img.shields.io/twitter/follow/matthansen0?label=Twitter&style=social" alt="Twitter"></a>
-	<a href="https://thetechl33t.com"><img alt="Website" src="https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fluke.geek.nz%2F"></a>
+	<a href="https://hansencloud.com"><img alt="Website" src="https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fhansencloud.com"></a>
 	</p>
 
 
-<!--
-**matthansen0/matthansen0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
