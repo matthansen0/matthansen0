@@ -12,7 +12,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: vn7n24fbe/github-profile-summary-cards@release
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -23,4 +23,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add profile-summary-card-output/
-          git diff --cached --quiet || git commit -m "Update profile summary cards" && git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Update profile summary cards"
+            git push
+          fi

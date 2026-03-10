@@ -25,14 +25,6 @@ You'll find here my public and forked repositories. Feel free to contact me if y
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/matthansen0/matthansen0/output/github-contribution-grid-snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/matthansen0/matthansen0/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/matthansen0/matthansen0/output/github-contribution-grid-snake.svg" />
-</picture>
-
----
-
 Chat with me on LinkedIn
 <p align="left">
 	<a href="https://www.linkedin.com/in/matthansen0/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
