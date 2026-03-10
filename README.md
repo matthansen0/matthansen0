@@ -14,13 +14,15 @@ You'll find here my public and forked repositories. Feel free to contact me if y
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%3776AB.svg?style=for-the-badge&logo=git&logoColor=white&color=F05032)
 ![PowerShell](https://img.shields.io/badge/microsoft-powershell.svg?style=for-the-badge&logo=powershell&color=FFFFFF)
-![WindowsServer](https://img.shields.io/badge/microsoft-windows.svg?style=for-the-badge&logo=windows&color=000000)
 
 ---
 
 <p>
-  <img src="profile-summary-card-output/default/2-most-commit-language.svg" alt="Matt's github top languages" />
-  <img src="profile-summary-card-output/default/3-stats.svg" alt="Matt's github stats" />
+  <img src="profile-summary-card-output/github_dark/0-profile-details.svg" alt="Matt's github profile details" />
+</p>
+<p>
+  <img src="profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Matt's github top languages" />
+  <img src="profile-summary-card-output/github_dark/3-stats.svg" alt="Matt's github stats" />
 </p>
 
 ---
